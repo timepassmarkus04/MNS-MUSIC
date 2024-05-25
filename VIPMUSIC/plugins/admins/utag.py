@@ -12,7 +12,7 @@ SPAM_CHATS = {}
 
 
 @app.on_message(
-    filters.command(["utag", "uall"], prefixes=["/", "@", ".", "#"]) & admin_filter
+    filters.command(["sutag", "suall"], prefixes=["/", "@", ".", "#"]) & admin_filter
 )
 async def tag_all_users(_, message):
     global SPAM_CHATS
