@@ -101,6 +101,7 @@ async def play_commnd(
     mystic = await message.reply_text(
         _["play_2"].format(channel) if channel else _["play_1"]
     )
+    file_path = None
     plist_id = None
     slider = None
     plist_type = None
