@@ -798,6 +798,7 @@ async def stream(
     spotify: Union[bool, str] = None,
     forceplay: Union[bool, str] = None,
 ):
+    file_path = None
     if not result:
         return
     if forceplay:
