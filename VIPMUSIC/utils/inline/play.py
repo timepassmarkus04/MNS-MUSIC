@@ -100,7 +100,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     return buttons
 
 
-def stream_markup(_, videoid, user_id, chat_id):
+def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
@@ -110,7 +110,7 @@ def stream_markup(_, videoid, user_id, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url="https://t.me/Dns_Official_Channel",
+                text="📥 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url="https://t.me/Dns_Official_Channel",
             ),
             InlineKeyboardButton(
                 text="Update 📡", url="https://t.me/Dns_Official_Channel",
@@ -118,8 +118,8 @@ def stream_markup(_, videoid, user_id, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"],
-                callback_data=f"forceclose {videoid}|{user_id}",
+                text="๏ ᴀᴅᴠᴀɴᴄᴇ ๏",
+                callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
             ),
         ],
     ]
@@ -166,7 +166,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
-                callback_data="close",
+                callback_data=f"forceclose {videoid}|{user_id}",
             ),
         ],
     ]
