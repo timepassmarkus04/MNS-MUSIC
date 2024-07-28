@@ -100,28 +100,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     return buttons
 
 
-def stream_markup(_, videoid, chat_id, played, dur):
-    played_sec = time_to_seconds(played)
-    duration_sec = time_to_seconds(dur)
-    percentage = (played_sec / duration_sec) * 100
-    umm = math.floor(percentage)
-    if 0 < umm <= 40:
-        bar = "◉——————————"
-    elif 10 < umm < 20:
-        bar = "—◉—————————"
-    elif 20 < umm < 30:
-        bar = "——◉————————"
-    elif 30 <= umm < 40:
-        bar = "———◉———————"
-    elif 40 <= umm < 50:
-        bar = "————◉——————"
-    elif 50 <= umm < 60:
-        bar = "——————◉————"
-    elif 50 <= umm < 70:
-        bar = "———————◉———"
-    else:
-        bar = "——————————◉"
-        
+def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
@@ -131,7 +110,7 @@ def stream_markup(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="📥 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url="https://t.me/Dns_Official_Channel",
+                text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 💬", url="https://t.me/Dns_Official_Channel",
             ),
             InlineKeyboardButton(
                 text="Update 📡", url="https://t.me/Dns_Official_Channel",
