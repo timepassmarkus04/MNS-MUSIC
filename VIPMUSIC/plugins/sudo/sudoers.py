@@ -96,7 +96,7 @@ async def check_sudo_list(client, callback_query: CallbackQuery):
         keyboard.append(
             [
                 InlineKeyboardButton(
-                    "๏ xeno kakarot ๏", url=f"tg://openmessage?user_id={OWNER_ID}"
+                    "๏ Sung_jin_Woo_04 ๏", url=f"tg://openmessage?user_id={OWNER_ID}"
                 )
             ]
         )
