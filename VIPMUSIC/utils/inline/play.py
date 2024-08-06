@@ -34,7 +34,7 @@ def track_markup(_, user_id, channel, fplay):
         [
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
-                callback_data=f"PanelMarkup None|{chat_id}",
+                url=f"https://t.me/MNS_botss",
             ),
         ],
     ]
