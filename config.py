@@ -13,7 +13,7 @@ API_HASH = "e854995be05edb5bf21f5b84bdc0212f"
 BOT_TOKEN = "7324085779:AAGj8WJtiaOu4g8HZw2DofE_7iKSoUi74DI"
 MONGO_DB_URI = "mongodb+srv://devilkingp0404:devilkingp0404@cluster0.iw04afs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
-LOGGER_ID = int(getenv("LOGGER_ID"))
+LOGGER_ID = int(getenv("-1002222142844"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002222142844"))
 OWNER_ID = 7245959664
 
