@@ -11,7 +11,7 @@ def track_markup(_, user_id, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_5"],
+                text=_["S_B_3"],
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
         ],
@@ -110,10 +110,10 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 🥀", url="https://t.me/lolpagalokigc",
+                text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍 🥀", url="https://t.me/MNS_botss",
             ),
             InlineKeyboardButton(
-                text="Update 📡", url="https://t.me/lolpagalokigc",
+                text="Update 📡", url="https://t.me/MNS_botss",
             ),
         ],
         [
