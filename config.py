@@ -7,23 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
 
-# Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
-
-# Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-
+API_ID = 29350132
+API_HASH = "e854995be05edb5bf21f5b84bdc0212f"
+BOT_TOKEN = "7324085779:AAGj8WJtiaOu4g8HZw2DofE_7iKSoUi74DI"
+MONGO_DB_URI = "mongodb+srv://devilkingp0404:devilkingp0404@cluster0.iw04afs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
-
-# Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002009280180"))
-
-# Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID"))
+LOG_GROUP_ID = -1002222142844
+OWNER_ID = 7245959664
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -33,15 +24,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Gokukhan1/DNS-MUSIC",
+    "https://github.com/timepassmarkus04/MNS-MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mlohvdryj")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/lolpagalokigc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MNS_botss")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MNS_botss")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "100"))
@@ -86,7 +77,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = "BQG_2PQAe8wWePj7LzevRxd7DF-9KOyv8eY7mrRkinJ6g0aHm5Y8fdKvMm0Gaesu16WbplF-Lv_ec2ujmQ4PvCF0MopZp8-0pOIVa4ycFPNmpqrTSGNMoJz3Wnh1F4i_BhvVesd0k4sklF3TEx2EoNKHQ0l8jsDtwljJOxGNW3pfwqEm5zdQO0L7m6UndzTKS0hhUe7MYrrPFaT7AoZy-9uoYis5HfheyREjca4Fmv3_EaQ0rUUhTD7JFj0dgmBFUoifHJG7wadVP4AsyR1tvfd3dONHwauCGkO_hg9bpbSqxqfDsfDdWBCnDjPahcRQ-uAi_zLrvUeDxHMYtxmI2BXnkdnc3AAAAAG85SnWAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -114,10 +105,10 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/8be064de4663788e86535.jpg"
+    "START_IMG_URL", "https://graph.org/file/b5c5289821a2445fb5042.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/b727863499abbc9a6a1e9.jpg"
+    "PING_IMG_URL", "https://graph.org/file/b5c5289821a2445fb5042.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/eacfe007f9907f5854b10.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/1afcb721fa58623413ebb.jpg"
