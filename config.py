@@ -10,9 +10,9 @@ load_dotenv()
 
 API_ID = 29350132
 API_HASH = "e854995be05edb5bf21f5b84bdc0212f"
-BOT_TOKEN = "7324085779:AAGt76PShYAXXtxIVBy51ZOXOY8wM0jr2FE"
+BOT_TOKEN = "7324085779:AAF5EKjh_rJLuyzfKXbla2jScoq05nQQZj4"
 MONGO_DB_URI = "mongodb+srv://devilkingp0404:devilkingp0404@cluster0.iw04afs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002222142844"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002222142844"))
 OWNER_ID = 7245959664
